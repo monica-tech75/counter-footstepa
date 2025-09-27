@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Basket Counter</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <h3>HOME</h3>
+                <p class="counter-el" id="counter-home">00</p>
+                <div class="add-btns">
+                    <button onclick="addPoints('home', 1)">+1</button>
+                    <button onclick="addPoints('home', 2)">+2</button>
+                    <button onclick="addPoints('home', 3)">+3</button>
+                </div>
+            </div>
+            <div class="wrapper">
+                <h3>GUEST</h3>
+                <p class="counter-el" id="counter-guest">00</p>
+                <div class="add-btns">
+                    <button onclick="addPoints('guest', 1)">+1</button>
+                    <button onclick="addPoints('guest', 2)">+2</button>
+                    <button onclick="addPoints('guest', 3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
